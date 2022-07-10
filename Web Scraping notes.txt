@@ -1,0 +1,14 @@
+libraries - requests, beautiful soup, pandas, selenium, chromedriver
+
+request.get(webpage link) -> retrieve html 
+
+beautiful soup convert data from request format to desired format
+
+bs.select(tag name) used to retrieve html script of particular tag
+
+.getText used to get value inside html script retrieved from .select command earlier
+
+.prettify present the html in formatted manner
+
+.findall(tag name, class = ) finds the script with particular tags
+
